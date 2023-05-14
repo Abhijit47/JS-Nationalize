@@ -138,7 +138,7 @@ const getProbability = async () => {
     // Remove the popover after some delay
     setTimeout(() => {
       popOver.classList.remove('show');
-    }, 1250);
+    }, 2000);
 
   } catch (err) {
     console.log(err.message);
